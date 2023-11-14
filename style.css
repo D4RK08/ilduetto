@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+}
+
+#X{
+    height: 2000px;
+}
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Aggiungi spaziatura se necessario */
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    height: 50px; /* Regola l'altezza del logo a tuo piacimento */
+}
+
+#social {
+    display: flex;
+}
+
+.social {
+    height: 30px; /* Regola l'altezza dei social a tuo piacimento */
+    margin-right: 10px; /* Aggiungi spaziatura tra i social se necessario */
+    text-align: center; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#spaziatore{
+    width: 17px;
+}
+
+#foto{
+    margin-top: 70px;
+}
+
+#links{
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease-in-out;
+}
+
+.link:hover{
+    color: #e74c3c;
+}
