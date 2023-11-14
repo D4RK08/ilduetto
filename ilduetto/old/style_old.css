@@ -1,0 +1,37 @@
+body{
+  margin:0;
+}
+
+#logo{
+  border-radius: 20px;
+  margin-right: 5px;
+  height: 100px;
+  width: 100px;
+}
+
+#contenitore{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding: 20px;
+  background-image: url('sfondo.jpg');
+  height: 100px;
+}
+
+#X{
+  height: 2000px;
+}
+
+#header{
+  justify-content: center; 
+  align-items: center;
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            color: #fff;
+            text-align: center;  
+            padding: 20px;
+}
