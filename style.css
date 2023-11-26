@@ -1,11 +1,13 @@
 body{
     margin: 0px;
+    background-color: black;
 }
 
 #X{
     height: 2000px;
 }
 #header {
+    z-index: 2;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -31,12 +33,17 @@ body{
     align-items: center;
 }
 
-#spaziatore{
+.spaziatore{
     width: 17px;
 }
 
 #foto{
-    margin-top: 70px;
+    opacity: 50%;
+    width: 100%;
+}
+
+#corpo{
+  justify-content: center;
 }
 
 #links{
@@ -45,10 +52,25 @@ body{
 
 .link {
     text-decoration: none;
-    color: #3498db;
+    color: #FFFFFF;
     transition: color 0.3s ease-in-out;
+    margin: auto;
 }
 
 .link:hover{
-    color: #e74c3c;
+    color: #F0F0F0;
+}
+
+p{
+    color: white;
+}
+
+#sbarra{
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    margin-right: 9%;
+    font-size: 120%;
+    color: #FFFFFF;
+    
 }
